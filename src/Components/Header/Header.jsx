@@ -52,7 +52,7 @@ const Header = () => {
                   </div>
                   <div className="btn">
                     <button className="mybtn" onClick={scrollToContact} duration={50} smooth={false}>Contact Me</button>
-                   <a href=" https://drive.google.com/file/d/1dnKonHSbePTWtVMn77YFT7tipLn2Geio/view?usp=sharing"><button className="mybtn">My Resume</button></a>
+                   <a href=" https://drive.google.com/file/d/1yj1J4yM8BLitJeugQFaPVaEAQ5cNq4_c/view?usp=sharing" target='_blank'><button className="mybtn">My Resume</button></a>
                   </div>
                 </div>
               </div>
