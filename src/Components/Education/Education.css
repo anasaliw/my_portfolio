@@ -1,0 +1,26 @@
+.global-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#divider {
+    height: 3px;
+    /* width: 70vw; */
+    background-color: blueviolet;
+    margin-bottom: 30px;
+}
+
+.uniLogo {
+    width: 50px;
+}
+
+.education h1{
+    /* font-size: larger; */
+    text-align: center;
+}
+
+.eduTitle{
+    color: purple;
+    text-decoration: none;
+}

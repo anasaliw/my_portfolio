@@ -1,0 +1,31 @@
+
+.articlePic:hover{
+    cursor: pointer;
+}
+
+.articlePic{
+    width: 500px;
+}
+
+@media screen and (max-width: 900px) {
+    #webView{
+       width: 250px;
+    }
+}
+
+.read{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: none;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    border-color: blueviolet;
+    margin-bottom: 5px;
+}
+
+.read:hover{
+    background-color: purple;
+    cursor: pointer;
+}
