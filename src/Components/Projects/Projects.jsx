@@ -14,45 +14,49 @@ import "./Projects.css";
 const projectData = {
   projectList: [
     {
-      name: "NFT Marketplace",
-      details: "In this marketplace you can create NFT , sell, buy and Resell NFT with BNB",
-      demo: "https://63d61ce706bfdf15e7f082ef--ditalversefyp.netlify.app/",
-      code: "https://github.com/Sameer-472/DigitalVerse",
-      tech: "Blockchain"
+      name: "Monki Finance",
+      details:
+        "I have developed Client's website UI using ReactJs and Material UI ",
+      demo: "https://monki-finance-ui.netlify.app",
+      code: "",
+      tech: "ReactJS",
     },
     {
-      name: "MultiSender Dapp",
-      details: "In this Dapp you can transfer BNB and token to multiple address in just one click.",
-      demo: "https://63d61ce706bfdf15e7f082ef--ditalversefyp.netlify.app/",
-      code: "https://github.com/Sameer-472/DigitalVerse",
-      tech: "Blockchain"
+      name: "OGS SAFU",
+      details:
+        "I have developed Client's website UI using ReactJs and Material UI.",
+      demo: "https://ogs-safuu.netlify.app/",
+      code: "",
+      tech: "ReactJS",
     },
     {
-      name: "Web3.0 Ethereum transfer app",
-      details: "made this Quiz app with React and Solidity",
-      demo: "https://etherblockchain.netlify.app/",
-      code: "https://github.com/Sameer-472/Web-3.0-blockchain-project",
-      tech: "Blockchain"
+      name: "NEXUS GALAXY",
+      details:
+        "I have developed Client's website UI using ReactJs and Material UI.",
+      demo: "https://nexusgalaxy.io/",
+      code: "",
+      tech: "ReactJS",
     },
     {
       name: "Expense Tracker App with PWA",
-      details: "In this is web app you can manage and track all your expenses",
-      demo: "https://lonely-bedroom.surge.sh/",
-      code: "https://github.com/Sameer-472/expense-tracker-rebuild",
-      tech: "React"
-    }
+      details:
+        "I have developed Client's website UI using ReactJs and Material UI.",
+      demo: "https://presale.nexusgalaxy.io/",
+      code: "",
+      tech: "ReactJS",
+    },
   ],
 };
 
 const { projectList } = projectData;
 
-projectList.map(({ name, details, demo, code , tech }) => {
+projectList.map(({ name, details, demo, code, tech }) => {
   console.log(name);
 });
 
 const bull = (
   <Box
-    component="span"
+    component='span'
     sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
   >
     •
@@ -64,49 +68,50 @@ const card = <React.Fragment></React.Fragment>;
 export const Projects = () => {
   return (
     <>
-      <div className="Project-container">
-        <h1 style={{textAlign: 'center'}}>🚀 Open Source Projects</h1>
+      <div className='Project-container'>
+        <h1 style={{ textAlign: "center" }}>🚀 Projects</h1>
         <Box sx={{}}>
           <Grid
             container
             spacing={3}
-            justifyContent="center"
-            alignItems="center"
+            justifyContent='center'
+            alignItems='center'
             item
           >
-            {projectList.map(({ name, details, demo, code , tech }) => {
+            {projectList.map(({ name, details, demo, code, tech }) => {
               return (
                 <>
                   <Grid
                     item
                     xs={10}
                     md={5}
-                    data-aos="flip-right"
-                    data-aos-delay="0"
-                    data-aos-easing="ease"
-                    data-aos-duration="2000"
+                    data-aos='flip-right'
+                    data-aos-delay='0'
+                    data-aos-easing='ease'
+                    data-aos-duration='2000'
                     // style={{backgroundColor: "green"}}
                   >
                     <div>
-                      <Card variant="outlined" className="projectCard" >
+                      <Card variant='outlined' className='projectCard'>
                         <CardContent>
-                          <Typography variant="h5" component="div">
+                          <Typography variant='h5' component='div'>
                             {name}
                           </Typography>
-                          <Typography variant="body2">
+                          <Typography variant='body2'>
                             {details}
                             <br />
                           </Typography>
                           <CardActions>
-                            <p>🟡 <b>{tech}</b></p>
+                            <p>
+                              🟠 <b>{tech}</b>
+                            </p>
                           </CardActions>
                           <a href={demo}>
-
-                            <button className="projectButton">Demo</button>
+                            <button className='projectButton'>Demo</button>
                           </a>
-                          <a href={code}>
+                          {/* <a href={code}>
                            <button className="projectButton">Code</button>
-                          </a>
+                          </a> */}
                         </CardContent>
                       </Card>
                     </div>
@@ -115,9 +120,11 @@ export const Projects = () => {
               );
             })}
           </Grid>
-            <div className="viewMore">
-              <a href="https://github.com/Sameer-472?tab=repositories" target='_blank'><h3>View more ➜</h3></a>
-            </div>
+          <div className='viewMore'>
+            <a href='https://github.com/anasaliw' target='_blank'>
+              <h3>View more ➜</h3>
+            </a>
+          </div>
         </Box>
       </div>
     </>

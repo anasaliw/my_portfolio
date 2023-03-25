@@ -23,10 +23,7 @@ const Skills = () => {
       img: "https://img.icons8.com/color/50/000000/html-5.png",
       name: "HTML5",
     },
-    {
-      img: "https://img.icons8.com/color/50/000000/python.png",
-      name: "Python",
-    },
+
     {
       img: "https://img.icons8.com/color/48/000000/npm.png",
       name: "NPM",
@@ -51,34 +48,23 @@ const Skills = () => {
       img: "https://img.icons8.com/color/48/null/redux.png",
       name: "Redux",
     },
-    {
-      img: "https://img.icons8.com/color/48/null/solidity.png",
-      name: "Solidity",
-    },
+
     {
       img: "https://img.icons8.com/ios-filled/50/null/github.png",
       name: "Github",
-    },
-    {
-      img: "Images/hardhat.svg",
-      name: "Hardhat",
-    },
-    {
-      img: "https://docs.ethers.org/v5/static/logo.svg",
-      name: "Ether.js",
     },
   ];
 
   return (
     <>
-      <div className="skills">
+      <div className='skills'>
         <Box sx={{ flexGrow: 1 }}>
           <Grid
             container
             spacing={1}
-            direction="column"
-            justifyContent="center"
-            alignItem="center"
+            direction='column'
+            justifyContent='center'
+            alignItem='center'
           >
             <h1
               style={{
@@ -94,24 +80,29 @@ const Skills = () => {
               xs={3}
               md={5}
               order={{ xs: 1, md: 1 }}
-              data-aos="fade-right"
-              data-aos-delay="0"
-              data-aos-easing="ease"
-              data-aos-duration="2000"
-              justifyContent="center"
-              alignItem="center"
+              data-aos='fade-right'
+              data-aos-delay='0'
+              data-aos-easing='ease'
+              data-aos-duration='2000'
+              justifyContent='center'
+              alignItem='center'
               container
             >
-              <div id="myInfo">
+              <div id='myInfo'>
                 {/* <p>⚡ Crazy Front end Developer who always ready to explore every tech</p>
                 <p>⚡ Develope highly interactive user interface for your web applications</p>
                 <p>⚡ Develope </p>
                 <p>⚡ List of Skills that i have explored</p> */}
-                <div className="skills-icons projectCard">
+                <div className='skills-icons projectCard'>
                   {skillsDetails.map((item, index) => (
                     <>
-                      <div className="skillBox" key={index}>
-                        <img src={item.img} alt="" id={`id${index}`} className='skillsIcon'/>
+                      <div className='skillBox' key={index}>
+                        <img
+                          src={item.img}
+                          alt=''
+                          id={`id${index}`}
+                          className='skillsIcon'
+                        />
                         <p>{item.name}</p>
                       </div>
                     </>

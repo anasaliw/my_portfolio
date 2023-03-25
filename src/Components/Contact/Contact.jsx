@@ -12,53 +12,123 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 export const Contact = () => {
   return (
     <div>
-      <Box sx={{ flexGrow: 1 }} class="flex" style={{marginTop: "-50px"}}>
-        <h1 className="reach-out">🤙 Reach out to Me!</h1>
+      <Box
+        className='flex'
+        sx={{
+          marginTop: "-50px",
+          p: {
+            lg: "0px 0px",
+            md: "0px 20px",
+            sm: "0px 30px",
+            xs: "0px 20px",
+          },
+        }}
+      >
+        <h1 className='reach-out'>🤙 Reach out to Me!</h1>
         <Grid
           container
           spacing={1}
           // direction="column"
-          justifyContent="center"
-          alignItem="center"
-          data-aos="zoom-in-up"
-          data-aos-delay="0"
-          data-aos-easing="ease"
-          data-aos-duration="2000"
+          justifyContent='center'
+          alignItem='center'
+          data-aos='zoom-in-up'
+          data-aos-delay='0'
+          data-aos-easing='ease'
+          data-aos-duration='2000'
           item
         >
-          <Grid xs={10} md={8} order={{ xs: 3, md: 1 }} class="contact">
+          <Grid xs={10} md={8} order={{ xs: 3, md: 1 }} className='contact'>
             <p>WANT TO WORK WITH ME SAY HELLO MY DM ARE OPEN FOR EVERYONE</p>
-            <h2>Pakistani || Aspiring Software developer || Tech Guy</h2>
-            <p>
-              <AddLocationAltIcon /> Hyderabad , Pakistan
-            </p>
-            <h3>Open for work: Yes</h3>
-            <div className="Icons">
-              <a href="https://github.com/Sameer-472">
-                <GitHubIcon id="github" className="social-media-icons" />
+            <h2 style={{ marginTop: "10px" }}>
+              Pakistani || Aspiring Software developer || Tech Guy
+            </h2>
+            <Box
+              sx={{
+                marginTop: "10px",
+                display: "flex",
+                justifyContent: {
+                  lg: "flex-start",
+                  md: "center",
+                  sm: "center",
+                  xs: "center",
+                },
+                alignItems: "center",
+                // textAlign: "center",
+              }}
+            >
+              <AddLocationAltIcon />
+              <p style={{ marginLeft: "10px" }}>Hyderabad , Pakistan </p>
+            </Box>
+            <h3 style={{ marginTop: "10px" }}>Open for work: Yes</h3>
+            <Box
+              className=''
+              sx={{
+                mt: "10px",
+                "& > a": {
+                  mr: 5,
+                },
+              }}
+            >
+              <a href='https://github.com/anasaliw'>
+                <GitHubIcon
+                  id='github'
+                  sx={{
+                    transition: ".5s",
+                    "&:hover": {
+                      color: "#eb6612",
+                    },
+                  }}
+                />
               </a>
-              <a href="https://www.instagram.com/skywalker_sameer/">
+              <a href='https://www.instagram.com/iam_introvert_bro/'>
                 {" "}
-                <InstagramIcon id="instagram" className="social-media-icons" />
+                <InstagramIcon
+                  id='instagram'
+                  sx={{
+                    transition: ".5s",
+                    "&:hover": {
+                      color: "#eb6612",
+                    },
+                  }}
+                />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=100009529212122">
-                <FacebookIcon id="facebook" className="social-media-icons" />
+              <a href='https://www.facebook.com/anasali.wassan'>
+                <FacebookIcon
+                  id='facebook'
+                  sx={{
+                    transition: ".5s",
+                    "&:hover": {
+                      color: "#eb6612",
+                    },
+                  }}
+                />
               </a>
-              <a href="https://twitter.com/Sameerkhan_45">
-                <TwitterIcon id="twitter" className="social-media-icons" />
+
+              <a href='https://www.linkedin.com/in/anas-ali-wassan-059b651bb/'>
+                <LinkedInIcon
+                  id='linkedin'
+                  sx={{
+                    transition: ".5s",
+                    "&:hover": {
+                      color: "#eb6612",
+                    },
+                  }}
+                />
               </a>
-              <a href="https://www.linkedin.com/in/muhammad-sameer-27ba2a172/">
-                <LinkedInIcon id="linkedin" className="social-media-icons" />
-              </a>
-            </div>
+            </Box>
           </Grid>
-          <Grid xs={10} md={2} order={{ xs: 1, md: 1 }}>
-            <img src="../../Images/myprofile.jpeg" className="mydp" alt="" />
+          <Grid
+            xs={10}
+            md={2}
+            order={{ xs: 1, md: 1 }}
+            sx={{ textAlign: "center" }}
+          >
+            <img src='../../Images/cvpic.jpeg' className='mydp' alt='' />
           </Grid>
         </Grid>
-        <div className="footer">
-          <p>Made with my 💜</p>
-          <p>Developer Sameer</p>
+        <div className='footer'>
+          <p>Made with my heart 🧡</p>
+          <p>Developer Anas</p>
         </div>
       </Box>
     </div>

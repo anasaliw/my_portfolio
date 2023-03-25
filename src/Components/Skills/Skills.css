@@ -1,80 +1,80 @@
 .skills {
-    margin-top: -10vh;
-    /* margin-left: -15vw; */
-    margin-bottom: 10vh;
-    /* background-color: rebeccapurple; */
+  margin-top: -10vh;
+  /* margin-left: -15vw; */
+  margin-bottom: 10vh;
+  /* background-color: rebeccapurple; */
 }
 
 .uniLogo {
-    width: 80px;
+  width: 80px;
 }
 
 .skills-icons {
-    display: grid;
-    margin-top: 20px;
-    height: max-content;
-    padding: 30px;
-    /* width: max-content; */
-    grid-template-columns: auto auto auto auto auto;
-    column-gap: 30px;
-    row-gap: 30px;
+  display: grid;
+  margin-top: 20px;
+  height: max-content;
+  padding: 30px;
+  /* width: max-content; */
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 30px;
+  row-gap: 30px;
 }
 
 @media screen and (max-width: 900px) {
-    .skills-icons {
-        /* width: 100px; */
-        grid-template-columns: auto auto ;
-        column-gap: 35px;
-        row-gap: 10px;
-        padding: 0px;
-        margin: 20px;
-        font-size: smaller;
-    }
-    .coverPic{
-        display: none;
-    }
-    /* .skillsIcon{
+  .skills-icons {
+    /* width: 100px; */
+    grid-template-columns: auto auto;
+    column-gap: 35px;
+    row-gap: 10px;
+    padding: 0px;
+    margin: 20px;
+    font-size: smaller;
+  }
+  .coverPic {
+    display: none;
+  }
+  /* .skillsIcon{
         width: 30px;
     } */
-    .skills-and-abilities{
-        font-size: 25px;
-        margin-top: 25px;
-    }
-    .skillBox{
-        /* padding: 0px 0px 0px 0px; */
-        /* padding: 0%; */
-        /* padding: 10px 20px 10px 20px; */
-        /* margin: 10px; */
-        /* width: ; */
-    }
+  .skills-and-abilities {
+    font-size: 25px;
+    margin-top: 25px;
+  }
+  .skillBox {
+    /* padding: 0px 0px 0px 0px; */
+    /* padding: 0%; */
+    /* padding: 10px 20px 10px 20px; */
+    /* margin: 10px; */
+    /* width: ; */
+  }
 }
 
 .skillBox {
-    /* background-color: rgba(0, 0, 22, 0.4); */
-    /* background-color: rgb(28, 26, 26); */
-    background-color: rgb(128, 65, 187);
-    border: 1px solid purple;
-    width: fit-content;
-    color: whitesmoke;
-    /* height: fit-content; */
-    /* padding: 15px; */
-    padding: 25px 35px 5px 35px;
-    border-radius: 10px;
-    height: 12vh;
-    margin: 10px;
-
+  /* background-color: rgba(0, 0, 22, 0.4); */
+  /* background-color: rgb(28, 26, 26); */
+  background-color: #eb6612;
+  border: 1px solid #a74102;
+  width: fit-content;
+  color: whitesmoke;
+  /* height: fit-content; */
+  /* padding: 15px; */
+  padding: 25px 35px 5px 35px;
+  border-radius: 10px;
+  height: 12vh;
+  margin: 10px;
+  padding-bottom: 15px;
 }
 
-.skillBox:hover{
-    background-color: purple;
+.skillBox:hover {
+  background-color: #a74102;
 }
 
 #id13 {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 #id14 {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
