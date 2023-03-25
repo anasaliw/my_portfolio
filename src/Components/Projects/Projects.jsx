@@ -38,7 +38,7 @@ const projectData = {
       tech: "ReactJS",
     },
     {
-      name: "Expense Tracker App with PWA",
+      name: "Pre Sale Nexus Galaxy UI",
       details:
         "I have developed Client's website UI using ReactJs and Material UI.",
       demo: "https://presale.nexusgalaxy.io/",

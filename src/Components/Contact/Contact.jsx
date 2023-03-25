@@ -121,7 +121,9 @@ export const Contact = () => {
             xs={10}
             md={2}
             order={{ xs: 1, md: 1 }}
-            sx={{ textAlign: "center" }}
+            sx={{
+              textAlign: "center",
+            }}
           >
             <img src='../../Images/cvpic.jpeg' className='mydp' alt='' />
           </Grid>
