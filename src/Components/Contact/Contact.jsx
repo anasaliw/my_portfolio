@@ -60,10 +60,11 @@ export const Contact = () => {
               <p style={{ marginLeft: "10px" }}>Hyderabad , Pakistan </p>
             </Box>
             <h3 style={{ marginTop: "10px" }}>Open for work: Yes</h3>
+            <h3 style={{ marginTop: "10px" }}>+92-334-2591914</h3>
             <Box
               className=''
               sx={{
-                mt: "10px",
+                mt: "20px",
                 "& > a": {
                   mr: 5,
                 },
