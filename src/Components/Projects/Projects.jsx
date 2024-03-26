@@ -33,15 +33,15 @@ const projectData = {
       name: "NEXUS GALAXY",
       details:
         "I have developed Client's website UI using ReactJs and Material UI.",
-      demo: "https://nexusgalaxy.io/",
+      demo: "https://nexus-galaxy.netlify.app/",
       code: "",
       tech: "ReactJS",
     },
     {
-      name: "Pre Sale Nexus Galaxy UI",
+      name: "Bitrefill",
       details:
         "I have developed Client's website UI using ReactJs and Material UI.",
-      demo: "https://presale.nexusgalaxy.io/",
+      demo: "https://bitrefill.netlify.app/",
       code: "",
       tech: "ReactJS",
     },
@@ -56,7 +56,7 @@ projectList.map(({ name, details, demo, code, tech }) => {
 
 const bull = (
   <Box
-    component='span'
+    component="span"
     sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
   >
     •
@@ -68,14 +68,14 @@ const card = <React.Fragment></React.Fragment>;
 export const Projects = () => {
   return (
     <>
-      <div className='Project-container'>
+      <div className="Project-container">
         <h1 style={{ textAlign: "center" }}>🚀 Projects</h1>
         <Box sx={{}}>
           <Grid
             container
             spacing={3}
-            justifyContent='center'
-            alignItems='center'
+            justifyContent="center"
+            alignItems="center"
             item
           >
             {projectList.map(({ name, details, demo, code, tech }) => {
@@ -85,19 +85,19 @@ export const Projects = () => {
                     item
                     xs={10}
                     md={5}
-                    data-aos='flip-right'
-                    data-aos-delay='0'
-                    data-aos-easing='ease'
-                    data-aos-duration='2000'
+                    data-aos="flip-right"
+                    data-aos-delay="0"
+                    data-aos-easing="ease"
+                    data-aos-duration="2000"
                     // style={{backgroundColor: "green"}}
                   >
                     <div>
-                      <Card variant='outlined' className='projectCard'>
+                      <Card variant="outlined" className="projectCard">
                         <CardContent>
-                          <Typography variant='h5' component='div'>
+                          <Typography variant="h5" component="div">
                             {name}
                           </Typography>
-                          <Typography variant='body2'>
+                          <Typography variant="body2">
                             {details}
                             <br />
                           </Typography>
@@ -107,7 +107,7 @@ export const Projects = () => {
                             </p>
                           </CardActions>
                           <a href={demo}>
-                            <button className='projectButton'>Demo</button>
+                            <button className="projectButton">Demo</button>
                           </a>
                           {/* <a href={code}>
                            <button className="projectButton">Code</button>
@@ -120,8 +120,8 @@ export const Projects = () => {
               );
             })}
           </Grid>
-          <div className='viewMore'>
-            <a href='https://github.com/anasaliw' target='_blank'>
+          <div className="viewMore">
+            <a href="https://github.com/anasaliw" target="_blank">
               <h3>View more ➜</h3>
             </a>
           </div>
