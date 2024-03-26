@@ -24,33 +24,33 @@ const Header = () => {
       <header>
         <Box
           sx={{ flexGrow: 1 }}
-          class='flex'
-          className='intro'
-          data-aos='fade-up'
-          data-aos-delay='0'
+          class="flex"
+          className="intro"
+          data-aos="fade-up"
+          data-aos-delay="0"
           // data-aos-easing='ease-in-out-quart'
-          data-aos-easing='linear'
-          data-aos-duration='2000'
+          data-aos-easing="linear"
+          data-aos-duration="2000"
         >
           <Grid
             container
             spacing={1}
             // direction="column"
-            justifyContent='center'
-            alignItem='center'
+            justifyContent="center"
+            alignItem="center"
           >
             <Grid item xs={10} md={5}>
               <div>
-                <div id='myInfo'>
-                  <h1 id='name'>
+                <div id="myInfo">
+                  <h1 id="name">
                     Hi I am Anas{" "}
-                    <img id='hand' src='../../Images/hand.gif' alt='' />
+                    <img id="hand" src="../../Images/hand.gif" alt="" />
                   </h1>
                   I am a ReactJs / MERN developer from Pakistan &nbsp;&nbsp;
                   <img
-                    src='../../Images/flag.png'
-                    alt=''
-                    id='flag'
+                    src="../../Images/flag.png"
+                    alt=""
+                    id="flag"
                     // style={{ margin: "0 10px" }}
                   />
                   &nbsp;&nbsp;
@@ -59,10 +59,10 @@ const Header = () => {
                   such as HTML, CSS, Javascript , ReactJs , NodeJs , ExpressJS
                   and MongoDB with them. I also work with MaterialUI , Redux ,
                   Github and some other cool libraries and frameworks🚀
-                  <div className='Icons'>
-                    <a href='https://github.com/anasaliw'>
+                  <div className="Icons">
+                    <a href="https://github.com/anasaliw">
                       <GitHubIcon
-                        id='github'
+                        id="github"
                         sx={{
                           transition: ".5s",
                           "&:hover": {
@@ -71,10 +71,10 @@ const Header = () => {
                         }}
                       />
                     </a>
-                    <a href='https://www.instagram.com/iam_introvert_bro/'>
+                    <a href="https://www.instagram.com/iam_introvert_bro/">
                       {" "}
                       <InstagramIcon
-                        id='instagram'
+                        id="instagram"
                         sx={{
                           transition: ".5s",
                           "&:hover": {
@@ -83,9 +83,9 @@ const Header = () => {
                         }}
                       />
                     </a>
-                    <a href='https://www.facebook.com/anasali.wassan'>
+                    <a href="https://www.facebook.com/anasali.wassan">
                       <FacebookIcon
-                        id='facebook'
+                        id="facebook"
                         sx={{
                           transition: ".5s",
                           "&:hover": {
@@ -95,7 +95,7 @@ const Header = () => {
                       />
                     </a>
                     {/* <a href="https://twitter.com/Sameerkhan_45"><TwitterIcon id="twitter" className="social-media-icons" /></a> */}
-                    <a href='https://www.linkedin.com/in/anas-ali-wassan-059b651bb/'>
+                    <a href="https://www.linkedin.com/in/anas-ali-wassan-059b651bb/">
                       <LinkedInIcon
                         sx={{
                           transition: ".5s",
@@ -103,13 +103,13 @@ const Header = () => {
                             color: "#eb6612",
                           },
                         }}
-                        id='linkedin'
+                        id="linkedin"
                       />
                     </a>
                   </div>
-                  <div className='btn'>
+                  <div className="btn">
                     <button
-                      className='mybtn'
+                      className="mybtn"
                       onClick={scrollToContact}
                       duration={50}
                       smooth={false}
@@ -117,10 +117,10 @@ const Header = () => {
                       Contact Me
                     </button>
                     <a
-                      href='https://drive.google.com/file/d/1ZIlV_kbQyl4g0WYeKdQxRtRi3juHUq91/view'
-                      target='_blank'
+                      href="https://drive.google.com/file/d/1up0U-IGRmXh_gQOJ5j5qoD-0gT7trgf2/view?usp=drive_link"
+                      target="_blank"
                     >
-                      <button className='mybtn'>My Resume</button>
+                      <button className="mybtn">My Resume</button>
                     </a>
                   </div>
                 </div>
@@ -129,10 +129,10 @@ const Header = () => {
             <Grid item xs={5} md={5}>
               <div>
                 <img
-                  id='img'
-                  src='../../Images/example-scene-2.svg'
-                  alt=''
-                  className='coverPic'
+                  id="img"
+                  src="../../Images/example-scene-2.svg"
+                  alt=""
+                  className="coverPic"
                 />
               </div>
             </Grid>
