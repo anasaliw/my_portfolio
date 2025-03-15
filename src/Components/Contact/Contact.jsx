@@ -40,7 +40,7 @@ export const Contact = () => {
           <Grid xs={10} md={8} order={{ xs: 3, md: 1 }} className='contact'>
             <p>WANT TO WORK WITH ME SAY HELLO MY DM ARE OPEN FOR EVERYONE</p>
             <h2 style={{ marginTop: "10px" }}>
-              Pakistani || Aspiring Software developer || Tech Guy
+              Pakistani || Aspiring Software Engineer || Tech Guy
             </h2>
             <Box
               sx={{
@@ -57,7 +57,7 @@ export const Contact = () => {
               }}
             >
               <AddLocationAltIcon />
-              <p style={{ marginLeft: "10px" }}>Hyderabad , Pakistan </p>
+              <p style={{ marginLeft: "10px" }}>Karachi , Pakistan </p>
             </Box>
             <h3 style={{ marginTop: "10px" }}>Open for work: Yes</h3>
             <h3 style={{ marginTop: "10px" }}>+92-334-2591914</h3>

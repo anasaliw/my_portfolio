@@ -37,9 +37,10 @@
   .coverPic {
     display: none;
   }
-  /* .skillsIcon{
-        width: 30px;
-    } */
+  .skillsIcon{
+    height: 50px;
+    width: 50px;
+    }
   .skills-and-abilities {
     font-size: 25px;
     margin-top: 25px;

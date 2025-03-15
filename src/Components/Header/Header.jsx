@@ -46,7 +46,7 @@ const Header = () => {
                     Hi I am Anas{" "}
                     <img id="hand" src="../../Images/hand.gif" alt="" />
                   </h1>
-                  I am a ReactJs / MERN developer from Pakistan &nbsp;&nbsp;
+                  I am a MEAN / MERN Stack developer from Pakistan &nbsp;&nbsp;
                   <img
                     src="../../Images/flag.png"
                     alt=""
@@ -54,7 +54,7 @@ const Header = () => {
                     // style={{ margin: "0 10px" }}
                   />
                   &nbsp;&nbsp;
-                  {""}I have completed my graduation in Information technology &
+                  {""}I have completed my graduation in Information technology and currently doing my masters degree in Computer Science &
                   having expertise in various Website Development technologies
                   such as HTML, CSS, Javascript , ReactJs , NodeJs , ExpressJS
                   and MongoDB with them. I also work with MaterialUI , Redux ,
@@ -117,7 +117,7 @@ const Header = () => {
                       Contact Me
                     </button>
                     <a
-                      href="https://drive.google.com/file/d/1up0U-IGRmXh_gQOJ5j5qoD-0gT7trgf2/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1TZn7cbVgYSbp_HNs2xaw1VkpXt2XW4nd/view?usp=sharing"
                       target="_blank"
                     >
                       <button className="mybtn">My Resume</button>

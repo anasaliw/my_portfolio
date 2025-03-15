@@ -12,6 +12,10 @@ const Skills = () => {
       name: "React js",
     },
     {
+      img: "https://img.icons8.com/?size=100&id=j9DnICNnlhGk&format=png&color=000000",
+      name: "Angular js",
+    },
+    {
       img: "https://img.icons8.com/color/50/000000/javascript--v1.png",
       name: "Javascript",
     },
@@ -102,6 +106,8 @@ const Skills = () => {
                           alt=''
                           id={`id${index}`}
                           className='skillsIcon'
+                          height={50}
+                          width={50}
                         />
                         <p>{item.name}</p>
                       </div>

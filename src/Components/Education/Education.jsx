@@ -25,7 +25,26 @@ export const Education = () => {
           >
             <Grid xs={10} md={10} className='education'>
               <h1>🎓Education</h1>
-              <img className='uniLogo' src='../../Images/sindh.png' alt='' />
+              {/* <img className='uniLogo' src='../../Images/sindh.png' alt='' /> */}
+              <h2>
+                <a
+                  href='https://usindh.edu.pk/'
+                  className='eduTitle'
+                  style={{ color: "#eb6612" }}
+                >
+                  SZABIST
+                </a>
+              </h2>
+              <h3>Masters of science in Computer Science</h3>
+              <p>September 2024 - May 2026</p>
+              <div id='divider'></div>
+              {/* <img
+                className='uniLogo'
+                src='../../Images/aps.png'
+                alt=''
+                style={{ height: "50px", objectFit: "cover" }}
+              /> */}
+              {/* <img className='uniLogo' src='../../Images/sindh.png' alt='' /> */}
               <h2>
                 <a
                   href='https://usindh.edu.pk/'
@@ -38,12 +57,12 @@ export const Education = () => {
               <h3>Bachelor of science in Inforamtion technology</h3>
               <p>January 2019 - February 2022</p>
               <div id='divider'></div>
-              <img
+              {/* <img
                 className='uniLogo'
                 src='../../Images/aps.png'
                 alt=''
                 style={{ height: "50px", objectFit: "cover" }}
-              />
+              /> */}
               <h2>
                 <a
                   href='http://www.apsachyd.edu.pk/'
